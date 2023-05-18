@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7aa2d349-af46-4afd-bc6d-c30e9dfdbc14" name="变更" comment="第一次提交">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-admin/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-admin/target/classes/com/sangeng/BlogAdminApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-admin/target/classes/com/sangeng/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-admin/target/classes/com/sangeng/controller/ArticleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-admin/target/classes/com/sangeng/controller/CategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-admin/target/classes/com/sangeng/controller/LinkController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-admin/target/classes/com/sangeng/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-admin/target/classes/com/sangeng/controller/MenuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-admin/target/classes/com/sangeng/controller/RoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-admin/target/classes/com/sangeng/controller/TagController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-admin/target/classes/com/sangeng/controller/UploadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-admin/target/classes/com/sangeng/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-admin/target/classes/com/sangeng/filter/JwtAuthenticationTokenFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-admin/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-admin/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-admin/target/sangeng-admin-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-blog/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/src/main/java/com/sangeng/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-blog/src/main/java/com/sangeng/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/src/main/java/com/sangeng/job/UpdateViewCountJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-blog/src/main/java/com/sangeng/job/UpdateViewCountJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-blog/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/classes/com/sangeng/SanGengBlogApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/classes/com/sangeng/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/classes/com/sangeng/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/classes/com/sangeng/controller/ArticleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/classes/com/sangeng/controller/BlogLoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/classes/com/sangeng/controller/CategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/classes/com/sangeng/controller/CommentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/classes/com/sangeng/controller/LinkController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/classes/com/sangeng/controller/UploadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/classes/com/sangeng/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/classes/com/sangeng/filter/JwtAuthenticationTokenFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/classes/com/sangeng/job/UpdateViewCountJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/classes/com/sangeng/runner/ViewCountRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/sangeng-blog-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/surefire-reports/TEST-com.sangeng.OssTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/surefire-reports/com.sangeng.OssTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-blog/target/test-classes/com/sangeng/OssTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/ArticleTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/ArticleTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Link.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/RoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/RoleMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Tag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/handler/mybatisplus/MyMetaObjectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/handler/mybatisplus/MyMetaObjectHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/ArticleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/ArticleTagMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/ArticleTagMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/CommentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/LinkMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/LinkMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/MenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/MenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/RoleMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/RoleMenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/TagMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/TagMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/UserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/UserRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/src/main/resources/mapper/MenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sangeng-framework/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/annotation/SystemLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/aspect/LogAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/config/FastJsonRedisSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/config/MbatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/config/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/constants/SystemConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/ResponseResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/dto/AddArticleDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/dto/AddCommentDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/dto/AddRoleDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/dto/AddUserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/dto/ChangeRoleStatusDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/dto/TagListDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/dto/UpdateArticleDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/dto/UpdateRoleDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/dto/UpdateUserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/entity/Article.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/entity/ArticleTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/entity/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/entity/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/entity/Link.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/entity/LoginUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/entity/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/entity/RoleMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/entity/Tag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/entity/UserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/AdminUserInfoVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/ArticleDetailVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/ArticleInfoVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/ArticleListVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/BlogUserLoginVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/CategoryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/CommentVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/ExcelCategoryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/HotArticleVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/LinkVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/MenuListVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/MenuTreeVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/PageVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/RoleMenuTreeSelectVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/RolePageVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/RoleVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/RoutersVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/SelectMenuVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/TagVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/UserInfoVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/UserPageVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/domain/vo/UserRoleInfoVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/enums/AppHttpCodeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/exception/SystemException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/handler/AccessDeniedHandlerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/handler/AuthenticationEntryPointImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/handler/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/handler/mybatisplus/MyMetaObjectHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/mapper/ArticleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/mapper/ArticleTagMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/mapper/CategoryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/mapper/CommentMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/mapper/LinkMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/mapper/MenuMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/mapper/RoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/mapper/RoleMenuMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/mapper/TagMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/mapper/UserRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/ArticleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/ArticleTagService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/BlogLoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/LinkService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/LoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/MenuService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/RoleMenuService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/RoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/TagService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/UploadService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/UserRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/impl/ArticleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/impl/ArticleTagServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/impl/BlogLoginServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/impl/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/impl/CommentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/impl/LinkServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/impl/MenuServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/impl/OssUploadServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/impl/PermissionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/impl/RoleMenuServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/impl/SystemLoginServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/impl/TagServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/impl/UserDetailsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/impl/UserRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/utils/BeanCopyUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/utils/JwtUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/utils/PathUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/utils/RedisCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/utils/SecurityUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/utils/SystemConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/com/sangeng/utils/WebUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/mapper/MenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/classes/mapper/RoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sangeng-framework/target/sangeng-framework-1.0-SNAPSHOT.jar" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Mybatis Mapper" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Environment/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Environment\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2L2HhvsY4XUOo8kizxKdZF3FUgw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/blog-master" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="项目" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sangeng.domain.vo" />
+      <recent name="com.sangeng.domain.dto" />
+      <recent name="com.sangeng.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Notes\练手项目-博客\代码\SGBlog\sangeng-framework\src\main\java\com\sangeng\utils" />
+      <recent name="D:\Notes\练手项目-博客\代码\SGBlog\sangeng-framework\src\main\java\com\sangeng\config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Notes\练手项目-博客\代码\SGBlog\sangeng-framework\src\main\resources\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sangeng.domain.vo" />
+      <recent name="com.sangeng.utils" />
+      <recent name="com.sangeng.domain.dto" />
+      <recent name="com.sangeng.filter" />
+      <recent name="com.sangeng.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SanGengBlogApplication">
+    <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sangeng.utils.JwtUtil" />
+      <module name="sangeng-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sangeng.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OssTest.testOss" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sangeng-blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sangeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sangeng" />
+      <option name="MAIN_CLASS_NAME" value="com.sangeng.OssTest" />
+      <option name="METHOD_NAME" value="testOss" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ViewCountTest.testViewCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sangeng-blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sangeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sangeng" />
+      <option name="MAIN_CLASS_NAME" value="com.sangeng.ViewCountTest" />
+      <option name="METHOD_NAME" value="testViewCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sangeng-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sangeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sangeng.BlogAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SanGengBlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sangeng-blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sangeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sangeng.SanGengBlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SanGengBlogApplication" />
+        <item itemvalue="JUnit.ViewCountTest.testViewCount" />
+        <item itemvalue="Spring Boot.BlogAdminApplication" />
+        <item itemvalue="应用程序.JwtUtil" />
+        <item itemvalue="JUnit.OssTest.testOss" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="7aa2d349-af46-4afd-bc6d-c30e9dfdbc14" name="变更" comment="" />
+      <created>1675062382371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675062382371</updated>
+      <workItem from="1675062383938" duration="2973000" />
+      <workItem from="1675065394643" duration="90000" />
+      <workItem from="1675065495229" duration="248000" />
+      <workItem from="1675065759780" duration="3100000" />
+      <workItem from="1675144256931" duration="5839000" />
+      <workItem from="1675339008819" duration="3870000" />
+      <workItem from="1675401845433" duration="16803000" />
+      <workItem from="1675509017186" duration="3905000" />
+      <workItem from="1675571549244" duration="14771000" />
+      <workItem from="1675662876060" duration="4023000" />
+      <workItem from="1675667719941" duration="8658000" />
+      <workItem from="1675747840262" duration="12084000" />
+      <workItem from="1675833845491" duration="8594000" />
+      <workItem from="1675920044288" duration="11692000" />
+      <workItem from="1676009812095" duration="324000" />
+      <workItem from="1676010152864" duration="13752000" />
+      <workItem from="1676092515289" duration="11185000" />
+      <workItem from="1676104141554" duration="12705000" />
+      <workItem from="1676125365419" duration="2405000" />
+      <workItem from="1676181693190" duration="22919000" />
+      <workItem from="1676357933362" duration="7942000" />
+      <workItem from="1676447026711" duration="268000" />
+      <workItem from="1677054969703" duration="42000" />
+      <workItem from="1677064507277" duration="19000" />
+      <workItem from="1677064556476" duration="5000" />
+      <workItem from="1682250713186" duration="175000" />
+      <workItem from="1682594165518" duration="169000" />
+      <workItem from="1683852507513" duration="7421000" />
+      <workItem from="1683878834535" duration="1851000" />
+      <workItem from="1683890967908" duration="897000" />
+      <workItem from="1683899164713" duration="778000" />
+      <workItem from="1683908211287" duration="82000" />
+      <workItem from="1683947275832" duration="76000" />
+      <workItem from="1684065228721" duration="7800000" />
+      <workItem from="1684110912128" duration="9313000" />
+      <workItem from="1684135234979" duration="34000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1675064249777</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675064249777</updated>
+    </task>
+    <task id="LOCAL-00002" summary="23.1.31 15.57">
+      <created>1675151853979</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675151853979</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2023.2.3 19.25">
+      <created>1675423594330</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675423594330</updated>
+    </task>
+    <task id="LOCAL-00004" summary="终版">
+      <created>1676205470975</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676205470975</updated>
+    </task>
+    <task id="LOCAL-00005" summary="第一次提交">
+      <created>1682250834300</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682250834300</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="23.1.31 15.57" />
+    <MESSAGE value="2023.2.3 19.25" />
+    <MESSAGE value="终版" />
+    <MESSAGE value="第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/impl/BlogLoginServiceImpl.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.sangeng.domain.entity.UserRole" memberName="userId" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SGBlog$SanGengBlogApplication.ic" NAME="SanGengBlogApplication 覆盖结果" MODIFIED="1675512477830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.sangeng.*</FILTER>
+    </SUITE>
+  </component>
+</project>

@@ -1,0 +1,44 @@
+server:
+  port: 8989
+
+spring:
+  main:
+    allow-circular-references: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  datasource:
+    url: jdbc:mysql://8.134.101.81:3306/sg_blog?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: xu.123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 5MB
+  redis:
+    host: 8.134.101.81
+    port: 6379
+    password: xu.123456
+    lettuce:
+      pool:
+        max-active: 8     #最大连接数
+        max-idle: 8       #最大空闲连接数
+        min-idle: 0       #最小空闲连接数
+        max-wait: 100ms   #等待连接时间
+
+mybatis-plus:
+  configuration:
+    # 日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-field: delFlag
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+      id-type: auto
+oss:
+  accessKey: zWeYsZULhaRTg8ipeGI7qFdNsfgFcFQKXrYEz7BW
+  secretKey: 824SME3-MVwKrYUbvJ8p6WIhVWyAPFmawwni8_qp
+  bucket: summer-blogs
+  cdn: http://rpnc9ky5b.hn-bkt.clouddn.com/
