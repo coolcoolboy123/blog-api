@@ -8,18 +8,18 @@ spring:
     pathmatch:
       matching-strategy: ant_path_matcher
   datasource:
-    url: jdbc:mysql://8.134.101.81:3306/sg_blog?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://*.*.*.*:3306/sg_blog?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
-    password: xu.123456
+    password: *
     driver-class-name: com.mysql.cj.jdbc.Driver
   servlet:
     multipart:
       max-file-size: 2MB
       max-request-size: 5MB
   redis:
-    host: 8.134.101.81
+    host: *.*.*.*
     port: 6379
-    password: xu.123456
+    password: *
     lettuce:
       pool:
         max-active: 8     #最大连接数
@@ -38,7 +38,7 @@ mybatis-plus:
       logic-not-delete-value: 0
       id-type: auto
 oss:
-  accessKey: zWeYsZULhaRTg8ipeGI7qFdNsfgFcFQKXrYEz7BW
-  secretKey: 824SME3-MVwKrYUbvJ8p6WIhVWyAPFmawwni8_qp
-  bucket: summer-blogs
-  cdn: http://rpnc9ky5b.hn-bkt.clouddn.com/
+  accessKey: *
+  secretKey: *
+  bucket: *
+  cdn: *
